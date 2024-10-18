@@ -55,6 +55,7 @@ public class Order implements Serializable {
         this.moment = moment;
     }
 
+    @Enumerated(EnumType.STRING)
     public OrderStatus getOrderStatus() {
         return OrderStatus.valueOf(orderStatus);
     }

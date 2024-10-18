@@ -1,5 +1,8 @@
 package com.educandoweb.course.enums;
 
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+
 public enum OrderStatus {
     WAITING_PAYMENT(1),
     PAID(2),
